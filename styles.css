@@ -34,10 +34,14 @@ body, html {
 }
 
 img {
-    width: 45%;
+   /* width: 45%; */
     border-radius: calc(var(--image) * 2);
     border: 4px solid var(--text);
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
+
 
 a {
     color: var(--text);
