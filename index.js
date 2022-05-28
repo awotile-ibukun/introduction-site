@@ -13,7 +13,14 @@ favouriteMode("light")
 // sharp, soft, round
 favouriteEdgeStyle("soft")
 
-
+function hideAndShow() {
+    var para = document.getElementById("explanation-text");
+    if (para.style.display === "none") {
+      para.style.display = "block";
+    } else {
+      para.style.display = "none";
+    }
+  }
 
 function setProp(prop, value) {
     document.documentElement.style.setProperty(prop, value)
